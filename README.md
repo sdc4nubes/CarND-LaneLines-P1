@@ -1,7 +1,7 @@
 
 # Project 1: Finding Lane Lines on the Road
 
-# Code and Writeup
+# Project Writeup
 
 ## Overview
 

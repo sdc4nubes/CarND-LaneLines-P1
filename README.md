@@ -40,7 +40,7 @@ This pipeline has been implemented using the helper functions and other code to 
 
 
 
-![png](p1_files/p1_5_1.png)
+![png](media/p1_5_1.png)
 
 
 
@@ -49,7 +49,7 @@ This pipeline has been implemented using the helper functions and other code to 
 
 
 
-![png](p1_files/p1_5_3.png)
+![png](media/p1_5_3.png)
 
 
 
@@ -58,7 +58,7 @@ This pipeline has been implemented using the helper functions and other code to 
 
 
 
-![png](p1_files/p1_5_5.png)
+![png](media/p1_5_5.png)
 
 
 
@@ -67,7 +67,7 @@ This pipeline has been implemented using the helper functions and other code to 
 
 
 
-![png](p1_files/p1_5_7.png)
+![png](media/p1_5_7.png)
 
 
 
@@ -76,7 +76,7 @@ This pipeline has been implemented using the helper functions and other code to 
 
 
 
-![png](p1_files/p1_5_9.png)
+![png](media/p1_5_9.png)
 
 
 
@@ -85,7 +85,7 @@ This pipeline has been implemented using the helper functions and other code to 
 
 
 
-![png](p1_files/p1_5_11.png)
+![png](media/p1_5_11.png)
 
 
 
@@ -94,7 +94,7 @@ This pipeline has been implemented using the helper functions and other code to 
 
 
 
-![png](p1_files/p1_5_13.png)
+![png](media/p1_5_13.png)
 
 
 
@@ -103,7 +103,7 @@ This pipeline has been implemented using the helper functions and other code to 
 
 
 
-![png](p1_files/p1_5_15.png)
+![png](media/p1_5_15.png)
 
 
 # Show Videos

@@ -19,11 +19,11 @@ My output video is an annotated version of the input video.
 
 *Input*
 
-![png](media/51ed00f6acb911966017b4ba498f0cc7.png)
+![png](media/original.png)
 
 *Output*
 
-![png](media/8d19444b5a25d1c8db59a01889749b4a.png)
+![png](media/highlighted_lanes.png)
 
 #### Has a pipeline been implemented that uses the helper functions and / or other code to roughly identify the left and right lane lines with either line segments or solid lines?
 
@@ -39,50 +39,50 @@ the full extent of the left and right lane boundaries:
 
 test_images.jpg
 
-![png](media/51ed00f6acb911966017b4ba498f0cc7.png)
+![png](media/original.png)
 
 ##### 2. Region of Interest
 
 This filter masks everything except the lane.
 
-![png](media/e6c61a191428411077cb096596751ecf.png)
+![png](media/region_of_interest.png)
 
 ##### 3. Color Filter
 
 This filter masks everything except yellow and white colors.
 
-![png](media/af91a64e8518057ea869e6e800744aec.png)
+![png](media/color_filter.png)
 
 ##### 4. Gaussian Blur
 
 This algorithm removes sharp edges.
 
-![png](media/b96d898e52eff198695f38ad481cfa34.png)
+![png](media/gaussian.png)
 
 ##### 5. Canny Edges
 
 This algorithm finds edges.
 
-![png](media/db812614dcb0a917e206929074f9187b.png)
+![png](media/canny.png)
 
 ##### 6. Hough Lines
 
 This algorithm converts edges into lines.
 
-![png](media/10672d0f527577f14ec15b300e0627ee.png)
+![png](media/hough.png)
 
 ##### 7. Extrapolated Lines
 
 This algorithm extrapolates lines and uses moving average and sanity checking
 algorithms to eliminate frame jumping.
 
-![png](media/e7ffdb1bfdafb7867eb8e597225957c3.png)
+![png](media/lane_lines.png)
 
 ##### 8. Original image with Lane shaded
 
 test_images.jpg
 
-![png](media/8d19444b5a25d1c8db59a01889749b4a.png)
+![png](media/highlighted_lanes.png)
 
 Reflection
 ----------

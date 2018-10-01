@@ -17,11 +17,13 @@ Lane Finding Pipeline
 
 My output video is an annotated version of the input video.
 
-![png](media/a9626e3a1ebd428586a3ac805321550d.png)
 *Input*
 
-![png](media/8d19444b5a25d1c8db59a01889749b4a.png)
+![png](media/51ed00f6acb911966017b4ba498f0cc7.png)
+
 *Output*
+
+![png](media/8d19444b5a25d1c8db59a01889749b4a.png)
 
 #### Has a pipeline been implemented that uses the helper functions and / or other code to roughly identify the left and right lane lines with either line segments or solid lines?
 

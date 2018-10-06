@@ -8,7 +8,7 @@ Required Files
 
 This git repository contains:
 -   A Jupyter notebook with code
--   A writeup report (either pdf or markdown)
+-   A writeup report (markdown)
 
 Lane Finding Pipeline
 ---------------------

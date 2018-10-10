@@ -19,11 +19,11 @@ My output video is an annotated version of the input video.
 
 *Input*
 
-![png](media/original.png)
+![png](media/Original_Image.png)
 
 *Output*
 
-![png](media/highlighted_lanes.png)
+![png](media/Original_image_with_Lane_shaded.png)
 
 #### Has a pipeline been implemented that uses the helper functions and / or other code to roughly identify the left and right lane lines with either line segments or solid lines?
 
@@ -37,52 +37,50 @@ the full extent of the left and right lane boundaries:
 
 ##### 1. Original Image
 
-test_images.jpg
+test_images\solidYellowCurve.jpg
 
-![png](media/original.png)
+![png](media/Original_Image.png)
 
 ##### 2. Region of Interest
 
 This filter masks everything except the lane.
 
-![png](media/region_of_interest.png)
+![png](media/Region_of_Interest.png)
 
 ##### 3. Color Filter
 
 This filter masks everything except yellow and white colors.
 
-![png](media/color_filter.png)
+![png](media/Color_Filter.png)
 
 ##### 4. Gaussian Blur
 
 This algorithm removes sharp edges.
 
-![png](media/gaussian.png)
+![png](media/Gaussian_Blur.png)
 
 ##### 5. Canny Edges
+ This algorithm finds edges.
 
-This algorithm finds edges.
-
-![png](media/canny.png)
+![png](media/Canny_Edges.png)
 
 ##### 6. Hough Lines
 
 This algorithm converts edges into lines.
 
-![png](media/hough.png)
+![png](media/Hough_Lines.png)
 
 ##### 7. Extrapolated Lines
 
-This algorithm extrapolates lines and uses moving average and sanity checking
-algorithms to eliminate frame jumping.
+This algorithm extrapolates lines and uses moving average and sanity checking algorithms to eliminate frame jumping.
 
-![png](media/lane_lines.png)
+![png](media/Extrapolated_Lines.png)
 
 ##### 8. Original image with Lane shaded
 
-test_images.jpg
+test_images\solidYellowCurve.jpg
 
-![png](media/highlighted_lanes.png)
+![png](media/Original_image_with_Lane_shaded.png)
 
 Reflection
 ----------

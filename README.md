@@ -7,7 +7,7 @@ Required Files
 #### Have all project files been included with the submission?
 
 This git repository contains:
--   A Jupyter notebook with code
+-   A Jupyter notebook with code, images and videos
 -   A writeup report (markdown)
 
 Lane Finding Pipeline
@@ -37,7 +37,7 @@ the full extent of the left and right lane boundaries:
 
 ##### 1. Original Image
 
-test_images\solidYellowCurve.jpg
+test_images\whiteCarLaneSwitch.jpg
 
 ![png](media/Original_Image.png)
 
@@ -78,9 +78,24 @@ This algorithm extrapolates lines and uses moving average and sanity checking al
 
 ##### 8. Original image with Lane shaded
 
-test_images\solidYellowCurve.jpg
+test_images\whiteCarLaneSwitch.jpg
 
 ![png](media/Original_image_with_Lane_shaded.png)
+
+Videos
+----------
+
+Solid White Right
+
+![png](media/solidWhiteRight.gif)
+
+Solid Yellow Left
+
+![png](media/solidYellowLeft.gif)
+
+Challenge
+
+![png](media/challenge.gif)
 
 Reflection
 ----------

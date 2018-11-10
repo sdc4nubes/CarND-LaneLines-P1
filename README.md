@@ -20,7 +20,7 @@ Lane Finding Pipeline
 
 #### Does the pipeline for line identification take road images from a video as input and return an annotated video stream as output?
 
-My output video is an annotated version of the input video.
+This output video is an annotated version of the input video.
 
 *Input*
 
@@ -32,13 +32,11 @@ My output video is an annotated version of the input video.
 
 #### Has a pipeline been implemented that uses the helper functions and / or other code to roughly identify the left and right lane lines with either line segments or solid lines?
 
-My pipeline identifies the left lane with a blue line and the right lane with a
-red line. The space between the lines (a.k.a. the lane) is shaded green.
+This pipeline identifies the left lane with a blue line and the right lane with a red line. The lane is shaded green.
 
 #### Have detected line segments been filtered / averaged / extrapolated to map out the full extent of the left and right lane boundaries?
 
-Detected line segments have been filtered, averaged and extrapolated to map out
-the full extent of the left and right lane boundaries:
+Detected line segments have been filtered, averaged and extrapolated to map out the full extent of the left and right lane boundaries:
 
 ##### 1. Original Image
 
@@ -107,23 +105,20 @@ Reflection
 
 #### Has a thoughtful reflection on the project been provided in the notebook?
 
-My reflection identifies potential shortcomings and suggests possible improvements:
+This reflection identifies potential shortcomings and suggests possible improvements:
 
 The potential shortcomings with this lane finder are numerous:
-1.  It can only find lanes on a highway with fully controlled access (fewer than
-    5% of U.S. roads fit this definition),
-2.  It cannot detect objects in front of or around the vehicle, so it cannot
-    determine when to slow down or stop,
+1.  It can only find lanes on a highway with fully controlled access (fewer than 5% of U.S. roads fit this definition),
+2.  It cannot detect objects in front of or around the vehicle, so it cannot determine when to slow down or stop,
 3.  It cannot assist a self-driving car entering or exiting a highway,
 4.  It cannot assist a self-driving car in changing lanes,
 5.  It cannot assist a self-driving car on roads under repair,
 6.  It can only partially assist a self-driving car on poorly maintained
-    highways,
+highways,
 7.  It cannot assist a self-driving car during inclement weather (especially
     snow storms).
 
-Serious improvements to lane detection can be realized through the incorporation
-and utilization of more advanced technologies:
+Serious improvements to lane detection can be realized through the incorporation and utilization of more advanced technologies:
 1.  More video sensors and more types of sensors,
 2.  Better Cameras (3D),
 3.  Integrated Radar (Advanced Driver Assistance Systems),
